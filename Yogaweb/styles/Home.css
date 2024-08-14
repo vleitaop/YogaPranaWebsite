@@ -1,0 +1,76 @@
+.cabeceraHome{
+    display: flex;
+    margin-top: 5%;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+}
+
+.textoHome h1{
+    font-family: "Fredoka", sans-serif;
+    font-style:normal;
+    font-variation-settings:"wdth" 100;
+    font-size: 50px;
+    color: #414BB2;
+}
+
+img{
+    width: 80vh;
+}
+
+.textoHome{
+    padding-top:12% ;
+}
+.textoHome p{
+    padding-top: 5%;
+    padding-bottom: 15%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #414BB2;
+}
+
+.textoHome button{
+    height: 5vh;
+    width: 15vh;
+    border-radius: 15px;
+    border-color: #414BB2;
+    color: #414BB2;
+    background-color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+.textoHome button:hover{
+    background-color: #414BB2;
+    color: white;
+}
+
+@media all and (min-width: 360px) and (max-width: 1120px){
+    .cabeceraHome{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+        background-color: rgb(255, 255, 255);
+        
+    }
+    img{
+        width: 30vh;
+    }
+    .textoHome{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textoHome h1{
+        font-size: xx-large;
+    }
+    .textoHome p{
+        font-size: medium;
+        padding: 5vh;
+        padding-top: 0;
+        padding-bottom: 2vh;
+    }
+    .textoHome button{
+        margin-bottom: 2vh;
+    }
+}

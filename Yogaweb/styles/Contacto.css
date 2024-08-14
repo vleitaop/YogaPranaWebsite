@@ -1,0 +1,53 @@
+.contenedorcontacto{
+    padding: 3em;
+
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: antiquewhite;
+    height: max-content; 
+
+
+
+
+}
+
+
+.contactobotones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+}
+
+.contactobotones button{
+    width: 35%;
+    margin-bottom: 10%;
+}
+
+.formulariocontacto{
+    
+    margin-top: 8%;
+    width: 80%;
+}
+
+@media(max-width: 1120px){
+    
+    .contenedorcontacto{
+        grid-template-columns: repeat(1, 1fr);
+    
+        }
+
+
+}
+
+@media(max-width: 480px){
+    .contenedorcontacto{
+
+    grid-template-columns: repeat(1, 1fr);
+
+    }
+
+
+}
